@@ -1,0 +1,23 @@
+{
+    "name": "toof06/slim3",
+    "description": "this is the first project slim",
+    "authors": [
+        {
+            "name": "toof06",
+            "email": "benchabanetoufik1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+           "App\\":"app/"
+        }
+
+    },
+    "require": {
+        "slim/slim": "^3.5",
+        "slim/twig-view": "^2.4",
+        "swiftmailer/swiftmailer": "5.4.3",
+        "twig/twig": "^2.5",
+        "symfony/asset": "^4.1"
+    }
+}
