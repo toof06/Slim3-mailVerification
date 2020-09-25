@@ -2,7 +2,7 @@ for run application :
 
 composer install 
 
-npm install -g maildev @1.0.0-rc2 (because the last version have a problem) 
+npm install -g maildev 
 
 than run the maildev application at the server with : 
 maildev -o 
