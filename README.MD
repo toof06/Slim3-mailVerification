@@ -1,22 +1,38 @@
-for run application : 
+# Email testing with Maildev and Slim Framework 
+this is a simple MIT application which make you able to verify your mailing setting in localhost. <br>
 
-composer install 
+![name-of-you-image](public/success.png)
 
-npm install -g maildev 
+## Requirements 
+PHP > 7.1.^
+npm or docker 
 
-than run the maildev application at the server with : 
-maildev -o 
 
-run chmod and run a php server with : 
+## installations 
+```
+git clone https://github.com/toof06/Slim3-mailVerification.git
+```
+```
+npm i maildev
+```
+### OR 
+```
+docker run -p 1080:1080 -p 1025:1025 maildev/maildev
+```
+```
 php -S localhost:8080 -t public\    you must choose the port who isn't used
+```
+
+## PS. you can install Maildev through npm or docker but docker is more efficient
 
 
 
 
 
-if you have a problem with maildev server you schould try : maildev --ip with your ip adresse 
-or you can ask me a question 
 
 
 
-this is a simple MIT application with which you could verify your mailing setting in localhost. 
+
+
+
+
