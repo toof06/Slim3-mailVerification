@@ -2,7 +2,7 @@
 this is a simple MIT application which make you able to verify your mailing setting in localhost. <br>
 
 ![name-of-you-image](public/success.png)
-
+![name-of-you-image](public/success1.png)
 ## Requirements 
 PHP > 7.1.^
 npm or docker 
