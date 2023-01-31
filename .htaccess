@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www.toof06.github.io/Slim3-mailVerification/$
-RewriteRule (.*)$ www.toof06.github.io/Slim3-mailVerification/public/index.php [R=301,L]
