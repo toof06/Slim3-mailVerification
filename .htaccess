@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteBase /public/index.php
+RewriteBase public/index.php
